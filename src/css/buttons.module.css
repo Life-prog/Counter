@@ -1,0 +1,15 @@
+.inc {
+    border-color: darkgreen;
+}
+
+.dec {
+    border-color: brown;
+}
+
+.res {
+    border-color: darkgray;
+}
+
+.opac {
+    opacity: 0.5;
+}
