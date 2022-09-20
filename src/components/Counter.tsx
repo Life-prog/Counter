@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import Buttons from "./Buttons";
 import Display from "./Display";
+import Comments from "./Giscus";
 
 function Counter() {
 
@@ -38,6 +39,7 @@ function Counter() {
         <div>
             <Buttons increment={increment} decrement={decrement} reset={reset} MIN_VALUE={MIN_VALUE} MAX_VALUE={MAX_VALUE} counter={counter}/>
             <Display MIN_VALUE={MIN_VALUE} MAX_VALUE={MAX_VALUE} counter={counter}/>
+            <Comments />
         </div>
     )
 }
